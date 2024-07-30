@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Artimix</title>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(diamon/pic2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;       
+}
+.navbar {
+  overflow: hidden;
+  background-color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 85px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-left: 72px;
+  margin-top: 15px;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.logo img{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.card1{
+            height: 350px;
+            width: 300px;
+           /* border: 2px solid black;*/
+        }
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 25px;
+           /* border: 2px solid ;  */     
+             }
+        /*.card1:hover{
+            border: 14px inset brown;
+            box-shadow: 10px 10px 10px brown;
+        }*/
+        .container .btn{
+            width: 100px;
+            height: 25px;
+            background-color: lightseagreen;
+            border: none;
+            margin-left: 100px;
+            transition: width 1s;
+            font-weight: bold;
+        }
+        .container1 .btn{
+            width: 100px;
+            height: 25px;
+            background-color: lightseagreen;
+            border: none;
+            margin-left: 100px;
+            transition: width 1s;
+            font-weight: bold;
+        }
+        .text {
+            text-align: center;
+            font-size: 20px;
+        }
+        .btn:hover {
+            width: 125px;
+
+        }
+        div{
+            /*background-color:burlywood;*/
+        }
+        .container1 {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 25px;
+            /*border: 2px solid black */      
+             }
+     
+        .p1{
+            text-align: center;
+            font-size: 20px;
+        }
+
+.footA{
+            width: 100%;
+             height: 300px;
+              background-color: brown;
+              margin-top: 30px;
+        }
+        .foot1{
+            position:absolute ;
+             width: 100%;
+             font-size:20px; 
+        }
+        .foot2{
+            position:absolute ;
+            font-size:20px; 
+        }
+        .foot3{
+            position:absolute; 
+            margin-left:500px; 
+            margin-top: 30px;
+            font-size:20px; 
+        }
+        .Flogo{
+            margin-left: 170px;
+             margin-top: 70px;
+        }
+        .our1{
+            color:black; 
+            font-family: 'Times New Roman', Times, serif;
+             font-size:20px; 
+             list-style: none; 
+             text-decoration: none;
+        }
+        .foot4{
+            position:absolute;
+             margin-left: 775px; 
+             margin-top: 30px;
+              width: 300px;  
+              font-size:20px;   
+        }
+        .foot5{
+            position:absolute;
+             margin-left: 1150px;
+              margin-top: 30px; 
+              width: 300px;
+              font-size:20px; 
+              font-size:20px; 
+        }
+        .foot6{
+            position:absolute;
+             margin-left: 1150px;
+              margin-top: 190px; 
+              width: 300px;
+              font-size:20px; 
+              font-size:20px; 
+        }
+
+</style>
+
+
+</head>
+<body>
+    
+    <div class="logo"><img src="diamon/logo.png" alt="" width="150px" height="83.5px"></div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Gallery 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="dia.html" target="_blank"><img src="diamon/b1.jpg" alt="" height="50px" width="50px"> Diamond</a>
+            <a href="gold.html" target="_blank"> <img src="diamon/gb1.jpg" alt="" height="50px" width="50px">Gold</a>
+            <a href="artifical.html" target="_blank"> <img src="diamon/a10.jpg" alt="" height="50px" width="50px">Artifical</a>
+          </div> 
+        </div> 
+        <a href="About Us.html">About Us</a>
+        <a href="contact us .html" >Contact Us</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+
+      <h2 style="font-size: 60px; background-color: brown; color:honeydew; text-align:center;
+    border-radius: 20px; border:2px solid black;"> Artifical </h2>
+
+<div class="container">
+    <div class="card1">
+        <img src="diamon/an1.jpg" alt="" width="300px" height="200px">
+         <p class="p1">Artifical Silver Golden Set</p>
+        <p class="p1">Price:2000</p>
+        <button class="btn" type="submit">Add To Cart </button>
+    </div>
+    <div class="card1">
+        <img src="diamon/ar1.jpg" alt="" width="300px" height="200px">
+         <p class="p1">Orinal Stone Ring</p>
+        <p class="p1">Price:1000</p>
+        <button class="btn" type="submit">Add To Cart </button>
+    </div>
+    <div class="card1">
+        <img src="diamon/ab1.jpg" alt="" width="300px" height="200px">
+          <p class="p1">Multi Bangles</p>
+        <p class="p1">Price:200</p>
+        <button class="btn" type="submit">Add To Cart </button>
+    </div>
+</div>
+
+<div class="container1">
+    <div class="card1">
+        <img src="diamon/an3.jfif" alt="" width="300px" height="200px">
+        <p class="p1">Red Green Stone</p>
+        <p class="p1">Price:1500</p>
+        <button class="btn" type="submit">Add To Cart </button>
+    </div>
+    
+    <div class="card1">
+        <img src="diamon/ar3.jpeg" alt="" width="300px" height="200px">
+        <p class="p1">Green Stone Ring</p>
+        <p class="p1">Price:500</p>
+        <button class="btn" type="submit">Add To Cart </button>
+    </div>
+
+    <div class="card1">
+        <img src="diamon/ab3.jpg" alt="" width="300px" height="200px">
+         <p class="p1">White & Golden Bangles</p>
+        <p class="p1">Price:500</p>
+           <button class="btn" type="submit">Add To Cart </button>
+       </div>
+    </div>
+
+    <div class="container1">
+        <div class="card1">
+            <img src="diamon/an4.jfif" alt="" width="300px" height="200px">
+             <p class="p1">Indian Set</p>
+            <p class="p1">Price:2000</p>
+            <button class="btn" type="submit">Add To Cart </button>
+        </div>
+        
+        <div class="card1">
+            <img src="diamon/ar4.jfif" alt="" width="300px" height="200px">
+             <p class="p1">Arificial Ring</p>
+            <p class="p1">Price:400</p>
+            <button class="btn" type="submit">Add To Cart </button>
+        </div>
+    
+        <div class="card1">
+            <img src="diamon/ab4.jpg" alt="" width="300px" height="200px">
+               <p class="p1">White Pink & Green Bangles</p>
+            <p class="p1">Price:500</p>
+               <button class="btn" type="submit">Add To Cart </button>
+           </div>
+        </div>
+
+        
+    <div class="container1">
+        <div class="card1">
+            <img src="diamon/an7.jfif" alt="" width="300px" height="200px">          
+              <p class="p1">Gold Plated Set</p>
+            <p class="p1">Price:50000</p>
+            <button class="btn" type="submit">Add To Cart </button>
+        </div>
+        
+        <div class="card1">
+            <img src="diamon/ar7.jfif" alt="" width="300px" height="200px">           
+            <p class="p1">Zarqon Ring</p>
+            <p class="p1">Price:500</p>
+            <button class="btn" type="submit">Add To Cart </button>
+        </div>
+    
+        <div class="card1">
+            <img src="diamon/ab7.png" alt="" width="300px" height="200px">
+            <p class="p1">Jhumki Style Bangles</p>
+            <p class="p1">Price:1000</p>
+               <button class="btn" type="submit">Add To Cart </button>
+           </div>
+        </div>
+
+      <footer class="footA">
+        <div class="foot1">
+        <div class="foot2">
+         <img src="diamon/logo.png" alt="logo.png" width="150px" height="150px" class="Flogo" style=" margin-left: 170px; margin-top: 70px;">
+        </div>
+        <div class="foot3">
+            <h2>Our Navbar</h2>
+            <nav >
+                <ul >
+                    <li > <a class="our1" href="index.html">Home</a></li>
+                    <li > <a class="our1" href="gallery.html">Gallery</a></li>
+                    <li > <a class="our1" href="About Us.html">About Us</a></li>
+                    <li > <a class="our1" href="contact us .html">Contact Us</a></li>
+                    <li > <a class="our1" href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav> 
+        </div>
+        <div class="foot4">
+            <h2>Contact Us</h2>
+            <p>  Shop No:55,56 Boltan Market</p>
+            <p>karachi , Pakistan</p>
+            <p>Phone:+923012726739</p>
+            <p>Email:info.SmartJewellry@gmail.com</p>
+        </div> 
+        <div class="foot5">
+            <h2>About Us</h2>
+            <p> jewelry collection brings to you the quality and style that attracts the attention of distinguished customers.</p>
+           </div>
+           <div class="foot6">
+            <a href="https://whatsapp.com/dl/" target="_blank"><img src="diamon/whatsapp2.jpg" alt="" height="25px" width="25px"></a>
+            <a href="https://www.facebook.com/Smart-Collection-Club-2167561200198756/" target="_blank"><img src="diamon/facebook.png" alt="" height="25px" width="25px"></a>
+            <a href="https://www.instagram.com/invites/contact/?i=1pb0lmg8ebqwv&utm_content=o0pq7g2" target="_blank"><img src="diamon/insta.png" alt="" height="25px" width="25px"></a>
+            </div>
+    
+    </div>
+    
+    </footer>
+</body>
+</html>
